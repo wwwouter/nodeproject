@@ -8,7 +8,7 @@ exports.testSomething2 = function(test){
 
 exports.testSomethingEls = function(test){
     test.expect(666);
-    test.ok(667, "this assertion should FAIL!!");
+    test.ok(666, "this assertion should FAIL!!");
     test.done();
 };
 
