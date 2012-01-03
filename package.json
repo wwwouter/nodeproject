@@ -1,0 +1,7 @@
+{ "name" : "nodepoject"
+, "description" : "Node project"
+, "version" : "0.0.1"
+, "scripts" : { "test" : "nodeunit test"
+              }
+
+}
