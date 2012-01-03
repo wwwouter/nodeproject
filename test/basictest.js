@@ -5,11 +5,11 @@ exports.testSomething2 = function(test){
     test.done();
 };
 
-/*
+
 exports.testSomethingEls = function(test){
     test.expect(666);
     test.ok(666, "this assertion should FAIL!!");
     test.done();
 };
-*/
+
 
