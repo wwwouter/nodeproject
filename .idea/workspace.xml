@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b7160ee-04ae-4302-bdf3-08d7e9fc2580" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.js" afterPath="$PROJECT_DIR$/test/test.js" />
     </list>
     <list id="d83c5177-8d6f-45b6-a05c-9dd9826211a8" name="Failed commit: Default" comment="made it an express app" />
     <ignored path="nodeproject.iws" />
