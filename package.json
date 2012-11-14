@@ -6,8 +6,6 @@
 
       "express": "2"
 
-  }
-, "scripts" : { "test" : "nodeunit test"
-              }
+  } 
 
 }
