@@ -4,7 +4,7 @@
 
   "dependencies": {
 
-      "express": "2.7.2"
+      "express": "2.2.2"
 
   }
 , "scripts" : { "test" : "nodeunit test"
