@@ -4,10 +4,8 @@
 
   "dependencies": {
 
-      "express": "2.5.1"
+      "express": "2"
 
-  }
-, "scripts" : { "test" : "nodeunit test"
-              }
+  } 
 
 }
