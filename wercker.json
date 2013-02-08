@@ -1,0 +1,3 @@
+{
+	"preInstallScripts" : ["ll /cache", "touch /cache/iets"]
+}
