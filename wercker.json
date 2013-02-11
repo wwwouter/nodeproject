@@ -10,7 +10,7 @@
 		"mkdir -p /cache/wercker/home",
 		"sudo ln -s /cache/wercker/home/ /home/ubuntu",
 		"sudo chown ubuntu /home/ubuntu",
-		"echo sudo apt-get update",
+		"sudo apt-get update",
 		"sudo apt-get install openjdk-6-jre"
 		]
 }
