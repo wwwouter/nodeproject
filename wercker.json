@@ -4,6 +4,8 @@
 		"touch /cache/iets",
 		"mkdir -p /cache/wercker/apt-list",
 		"mkdir -p /cache/wercker/apt-cache",
+		"sudo rm -fr /var/lib/apt/lists",
+		"sudo rm -fr /var/cache/apt",
 		"sudo ln -s /cache/werkcer/apt-list /var/lib/apt/lists",
 		"sudo ln -s /cache/werkcer/apt-cache /var/cache/apt",
 		"mkdir -p /cache/wercker/home",
