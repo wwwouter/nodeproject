@@ -6,6 +6,8 @@
 		"sudo ln -s /cache/werkcer/apt /var/lib/apt",
 		"mkdir -p /cache/wercker/home",
 		"sudo ln -s /cache/werkcer/home /home/ubuntu",
-		"sudo chown ubuntu /home/ubuntu"
+		"sudo chown ubuntu /home/ubuntu",
+		"sudo apt-get update",
+		"sudo apt-get install openjdk-6-jre"
 		]
 }
