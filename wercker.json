@@ -4,12 +4,12 @@
 		"mkdir -p /cache/wercker/apt-cache",
 		"sudo rm -fr /var/cache/apt/archives",
 		"sudo ln -s /cache/wercker/apt-cache/ /var/cache/apt/archives",
-		"echo sudo rm -fr /var/lib/apt/lists",
-		"echo sudo ln -s /cache/wercker/apt-lists/ /var/lib/apt/lists",
+		"sudo rm -fr /var/lib/apt/lists",
+		"sudo ln -s /cache/wercker/apt-lists/ /var/lib/apt/lists",
 		"mkdir -p /cache/wercker/home",
 		"sudo ln -s /cache/wercker/home/ /home/ubuntu",
 		"sudo chown ubuntu /home/ubuntu",
-		"sudo apt-get update",
+		"if [ $( find /cache/wercker/aptupdated -mtime -1 | wc -l ) -eq 0 ]; then sudo apt-get update; touch /cache/wercker/aptupdated;  fi"
 		"sudo apt-get install openjdk-6-jre"
 		]
 }
