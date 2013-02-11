@@ -1,15 +1,15 @@
 {
 	"preInstallScripts" : [
-		"mkdir -p /cache/wercker/apt-lists",
+		"echo mkdir -p /cache/wercker/apt-lists",
 		"mkdir -p /cache/wercker/apt-cache",
 		"sudo rm -fr /var/cache/apt/archives",
 		"sudo ln -s /cache/wercker/apt-cache/ /var/cache/apt/archives",
-		"sudo rm -fr /var/lib/apt/lists",
-		"sudo ln -s /cache/wercker/apt-lists/ /var/lib/apt/lists",
+		"echo sudo rm -fr /var/lib/apt/lists",
+		"echo sudo ln -s /cache/wercker/apt-lists/ /var/lib/apt/lists",
 		"mkdir -p /cache/wercker/home",
 		"sudo ln -s /cache/wercker/home/ /home/ubuntu",
 		"sudo chown ubuntu /home/ubuntu",
-		"echo sudo apt-get update",
+		"sudo apt-get update",
 		"sudo apt-get install openjdk-6-jre"
 		]
 }
