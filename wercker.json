@@ -3,10 +3,8 @@
 		"ls /cache", 
 		"touch /cache/iets",
 		"mkdir -p /cache/wercker/apt",
-		"sudo mv /var/lib/apt /cache/wercker/apt",
 		"sudo ln -s /cache/werkcer/apt /var/lib/apt",
 		"mkdir -p /cache/wercker/home",
-		"sudo mv /home/ubuntu /cache/wercker/home",
 		"sudo ln -s /cache/werkcer/home /home/ubuntu",
 		"sudo chown ubuntu /home/ubuntu"
 		]
