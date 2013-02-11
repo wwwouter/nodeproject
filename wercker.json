@@ -3,13 +3,13 @@
 		"ls /cache", 
 		"touch /cache/iets",
 		"mkdir -p /cache/wercker/apt",
-		"sudo rm -fr /var/lib/apt/list",
-		"sudo ln -s /cache/werkcer/apt /var/lib/apt/list",
+		"sudo rm -fr /var/lib/apt/lists",
+		"sudo ln -s /cache/werkcer/apt /var/lib/apt/lists",
 		"mkdir -p /cache/wercker/home",
 		"sudo ln -s /cache/werkcer/home /home/ubuntu",
 		"sudo chown ubuntu /home/ubuntu",
 		"sudo apt-get update",
-		"sudo apt-get install openjdk-6-jre",
+		"sudo apt-get install openjdk-6-jre nodejs",
 		"npm install coffee"
 		]
 }
