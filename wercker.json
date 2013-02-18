@@ -1,5 +1,6 @@
 {
-	"preInstallScripts" : [
+	"packages" : ["nano"],
+	"preInstallScriptss" : [
 		"echo mkdir -p /cache/wercker/apt-lists",
 		"mkdir -p /cache/wercker/apt-cache",
 		"sudo rm -fr /var/cache/apt/archives",
