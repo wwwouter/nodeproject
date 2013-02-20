@@ -11,7 +11,7 @@
     "echo 'deb http://us-east-1.ec2.archive.ubuntu.com/ubuntu precise-security main restricted universe multiverse' >> /etc/apt/sources.list",
     "sudo chown root /etc/apt/sources.list"
     	"sudo apt-get update"
-    	"sudo apt-get install openjdk-6-jre"]
+    	"sudo apt-get install zlib1g openjdk-6-jre"]
 	"preInstallScriptss" : [
 		"echo mkdir -p /cache/wercker/apt-lists",
 		"mkdir -p /cache/wercker/apt-cache",
