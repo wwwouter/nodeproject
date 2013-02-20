@@ -3,9 +3,6 @@
 	"preInstallScripts" : [
 		"sudo touch /etc/apt/sources.list",
     "sudo chown ubuntu /etc/apt/sources.list",
-    "echo 'deb mirror://mirrors.ubuntu.com/mirrors.txt precise main restricted universe multiverse' >> /etc/apt/sources.list",
-    "echo 'deb mirror://mirrors.ubuntu.com/mirrors.txt precise-updates main restricted universe multiverse' >> /etc/apt/sources.list",
-    "echo 'deb mirror://mirrors.ubuntu.com/mirrors.txt precise-security main restricted universe multiverse' >> /etc/apt/sources.list",
     "echo 'deb http://us-east-1.ec2.archive.ubuntu.com/ubuntu precise main restricted universe multiverse' >> /etc/apt/sources.list",
     "echo 'deb http://us-east-1.ec2.archive.ubuntu.com/ubuntu precise-updates main restricted universe multiverse' >> /etc/apt/sources.list",
     "echo 'deb http://us-east-1.ec2.archive.ubuntu.com/ubuntu precise-security main restricted universe multiverse' >> /etc/apt/sources.list",
