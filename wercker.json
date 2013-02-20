@@ -1,13 +1,7 @@
 {
 	"packages" : ["nano"],
 	"preInstallScripts" : [
-		"sudo touch /etc/apt/sources.list",
-    "sudo chown ubuntu /etc/apt/sources.list",
-    "echo 'deb http://us-east-1.ec2.archive.ubuntu.com/ubuntu precise main restricted universe multiverse' >> /etc/apt/sources.list",
-    "echo 'deb http://us-east-1.ec2.archive.ubuntu.com/ubuntu precise-updates main restricted universe multiverse' >> /etc/apt/sources.list",
-    "echo 'deb http://us-east-1.ec2.archive.ubuntu.com/ubuntu precise-security main restricted universe multiverse' >> /etc/apt/sources.list",
-    "sudo chown root /etc/apt/sources.list",
-    	"sudo apt-get update",
+	"sudo apt-get update",
     	"sudo apt-get install zlib1g openjdk-6-jre"],
 	"preInstallScriptss" : [
 		"echo mkdir -p /cache/wercker/apt-lists",
