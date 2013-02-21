@@ -1,4 +1,5 @@
 {
+	"npm_test" : false,
 	 "preDeploy" : ["echo my-pre-deploy-script.sh"],
 
   "deploy" : ["echo my-deploy-script.sh"],
