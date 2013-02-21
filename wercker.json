@@ -1,6 +1,12 @@
 {
-	"packages" : ["nano"],
-	"preInstallScripts" : [
+	 "preDeploy" : ["echo my-pre-deploy-script.sh"],
+
+  "deploy" : ["echo my-deploy-script.sh"],
+
+  "postDeploy" : ["echo my-post-deploy-script.sh"],
+  
+	"packagesz" : ["nano"],
+	"preInstallScriptsz" : [
 	
     "sudo touch /etc/apt/sources.list",
     "sudo chown ubuntu /etc/apt/sources.list",
