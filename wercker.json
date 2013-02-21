@@ -1,6 +1,6 @@
 {
 	"npm_test" : false,
-	 "preDeploy" : ["echo my-pre-deploy-script.sh", "ssh -v", "scp -v", "tar -v"],
+	 "preDeploy" : ["echo my-pre-deploy-script.sh", "ssh -V", "tar --help", "scp"],
 
   "deploy" : ["echo my-deploy-script.sh"],
 
