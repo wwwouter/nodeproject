@@ -1,6 +1,7 @@
 {
 	"provision" : ["echo jaja"],
 	"npm_test" : false,
+	"jshint" : false,
 	 "preDeploy" : ["echo my-pre-deploy-script.sh", "ssh -V", "tar --help", "curl -V"],
 
   "deploy" : ["echo my-deploy-script.sh"],
