@@ -1,5 +1,5 @@
 {
-	"provision" : ["echo jaja"],
+	"provision" : ["echo jaja", "echo $PROVISION_SSH_KEY"],
 	"npm_test" : false,
 	"jshint" : false,
 	 "preDeploy" : ["echo my-pre-deploy-script.sh", "ssh -V", "tar --help", "curl -V"],
