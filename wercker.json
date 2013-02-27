@@ -1,5 +1,8 @@
 {
-	"provision" : ["echo jaja", "echo $PROVISION_SSH_KEY"],
+	"provision" : ["echo jaja", "echo $PROVISION_SSH_KEY",
+	"echo $PROVISION_SSH_KEY > keytoparse",
+	"sed 's/\\n/\n/g' keytoparse > key",
+	"cat key"],
 	"npm_test" : false,
 	"jshint" : false,
 	 "preDeploy" : ["echo my-pre-deploy-script.sh", "ssh -V", "tar --help", "curl -V"],
