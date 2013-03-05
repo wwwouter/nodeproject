@@ -13,6 +13,7 @@
   
 	"packagesk" : ["rabbitmq-server"],
 	"preInstallScripts" : [ "waaag", { "cmd" : "echo 1", "runAlways" : true}, "echo neuh"],
+	"customSteps" : { "run" : "lalala"},
 	"preInstallScriptsz" : [
 	
     "sudo touch /etc/apt/sources.list",
