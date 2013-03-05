@@ -12,6 +12,7 @@
   "postDeploy" : ["echo my-post-deploy-script.sh"],
   
 	"packagesk" : ["rabbitmq-server"],
+	"preInstallScripts" : [ "waaag", "echo 1"],
 	"preInstallScriptsz" : [
 	
     "sudo touch /etc/apt/sources.list",
