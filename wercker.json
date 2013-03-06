@@ -12,7 +12,7 @@
   "postDeploy" : ["echo my-post-deploy-script.sh"],
   
 	"packagesk" : ["rabbitmq-server"],
-	"postInstallScripts" : ["cd $WERCKER_ROOT", "cat out.xml"],
+	"customSteps" : {"out" : ["cd $WERCKER_ROOT", "cat out.xml"]},
 	"preInstallScripts1" : [ "waaag", { "cmd" : "echo 1", "runAlways" : true}, "echo neuh"],
 	"customSteps1" : { "run" : { "commands" :  ["lalala"], "runAlways" : true }},
 	"preInstallScriptsz" : [
