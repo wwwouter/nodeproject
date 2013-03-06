@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jslint>
+	<file name="controllers/heroku-addon.js">
+		<issue line="186" char="67" reason="Missing semicolon." evidence="          next(new Error(&quot;No heroku resource found&quot; + resourceId))" />
+		<issue line="243" char="43" reason="Missing semicolon." evidence="        winston.warn(&quot;Resource not found&quot;)" />
+	</file>
+</jslint>
