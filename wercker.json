@@ -12,8 +12,9 @@
   "postDeploy" : ["echo my-post-deploy-script.sh"],
   
 	"packagesk" : ["rabbitmq-server"],
-	"preInstallScripts" : [ "waaag", { "cmd" : "echo 1", "runAlways" : true}, "echo neuh"],
-	"customSteps" : { "run" : { "commands" :  ["lalala"], "runAlways" : true }},
+	"postInstallScripts" : ["cd $WERCKER_ROOT", "cat out.xml"],
+	"preInstallScripts1" : [ "waaag", { "cmd" : "echo 1", "runAlways" : true}, "echo neuh"],
+	"customSteps1" : { "run" : { "commands" :  ["lalala"], "runAlways" : true }},
 	"preInstallScriptsz" : [
 	
     "sudo touch /etc/apt/sources.list",
