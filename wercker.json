@@ -5,11 +5,11 @@
 	"cat key"],
 	"npm_test" : false,
 	"jshint" : false,
-	 "preDeploy" : ["echo my-pre-deploy-script.sh", "ssh -V", "tar --help", "curl -V"],
+	 "preDeploy1" : ["echo my-pre-deploy-script.sh", "ssh -V", "tar --help", "curl -V"],
 
-  "deploy" : ["echo my-deploy-script.sh"],
+  "deploy1" : ["echo my-deploy-script.sh"],
 
-  "postDeploy" : ["echo my-post-deploy-script.sh"],
+  "postDeploy1" : ["echo my-post-deploy-script.sh"],
   
 	"packagesk" : ["rabbitmq-server"],
 	"customSteps" : {"out" : ["cd $WERCKER_ROOT", "cat out.xml"]},
