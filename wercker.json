@@ -1,7 +1,5 @@
 {
-	"build" : 
-		"steps" : 
-			"hello world",
+	"build" : {"steps" : ["hello world"]},
 	"provision" : ["echo jaja", "echo $PROVISION_SSH_KEY",
 	"echo $PROVISION_SSH_KEY > keytoparse",
 	"sed 's/\\\\n/\\n/g' keytoparse > key",
