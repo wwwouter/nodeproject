@@ -1,13 +1,4 @@
 { "name" : "nodepoject"
 , "description" : "Node project"
-, "version" : "0.0.1",
-
-  "dependencies": {
-
-      "express": "2.5.1"
-
-  }
-, "scripts" : { "test" : "nodeunit test"
-              }
-
+, "version" : "0.0.1" 
 }
