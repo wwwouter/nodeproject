@@ -5,3 +5,4 @@ build :
         code : |
           echo 1
           echo 2
+    - copy output
