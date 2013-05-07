@@ -5,4 +5,5 @@ build :
         code : |
           echo 1
           echo 2
-    - copy output
+    - copy output:
+        exclude : node_modules .idea .git .gitignore .gitmodules .jshintignore .jshintrc
