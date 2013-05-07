@@ -1,7 +1,7 @@
 build :
   steps :
     - hello world
-    - script
+    - script :
         code :|
           echo 1
           echo 2
