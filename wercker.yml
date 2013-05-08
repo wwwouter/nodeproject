@@ -1,4 +1,6 @@
 box : wercker/nodejs
+services :
+  - wercker/redis
 build :
   steps :
     - hello world
