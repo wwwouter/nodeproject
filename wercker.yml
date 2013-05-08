@@ -3,7 +3,7 @@ services :
   - wercker/redis
 build :
   steps :
-    - nodeenv activate
+    - node env activate
     - npm install
     - npm test
     - hello world
