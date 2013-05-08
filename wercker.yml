@@ -10,7 +10,17 @@ build :
     - script :
         code : |
           echo 1
+          sleep 5
           echo 2
-    - hello world
+    - script :
+        code : |
+          echo 3
+          sleep 5
+          echo 4
+    - script :
+        code : |
+          echo 5
+          sleep 5
+          echo 6
     - copy output:
         exclude : node_modules .idea .git .gitignore .gitmodules .jshintignore .jshintrc
