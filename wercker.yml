@@ -1,7 +1,7 @@
 box : wercker/nodejs
 services :
   - wercker/redis
-  - wercker/rabbditmq
+  - wercker/mysql
 build :
   steps :
     - hello world
