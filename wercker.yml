@@ -1,6 +1,7 @@
 box : wercker/nodejs
 services :
   - wercker/redis
+  - wercker/rabbitmq
 build :
   steps :
     - hello world
