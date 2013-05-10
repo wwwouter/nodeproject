@@ -7,7 +7,7 @@ build :
     - npm install
     - npm test
     - hello world
-    - script :
+    - script 
         code : |
           echo 1
           sleep 5
