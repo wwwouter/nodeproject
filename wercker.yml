@@ -24,3 +24,4 @@ build :
           echo 6
     - copy output:
         exclude : node_modules .idea .git .gitignore .gitmodules .jshintignore .jshintrc
+
