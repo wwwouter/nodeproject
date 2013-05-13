@@ -9,9 +9,9 @@ build :
     - hello world
 deploy:
   steps:
-    - script
+    - script:
         name : show
-        code :|
+        code : |
           echo $WERCKER_SOURCE_DIR
           cd $WERCKER_SOURCE_DIR
           ls
