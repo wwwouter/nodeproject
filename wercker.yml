@@ -1,4 +1,4 @@
-box : wercker/nodejs
+box : wouter/ubuntu12.04-chef10.18.2
 services :
   - wercker/redis
 build :
