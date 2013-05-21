@@ -1,4 +1,4 @@
-box : wouter/ruby
+box : wercker/ruby
 services :
   - wercker/redis
 build :
