@@ -3,7 +3,7 @@ sservices :
   - wercker/redis
 build :
   steps :
-    - hello world
+    - sleep
   stepss :
     - nodeenv activate
     - npm install
