@@ -1,4 +1,4 @@
-box : wouter/ubuntu12.04-chef10.18.2
+box : wouter/ruby
 services :
   - wercker/redis
 build :
