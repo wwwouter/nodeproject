@@ -1,5 +1,5 @@
-box : wercker/ruby
-services :
+box : wouter/ruby
+sservices :
   - wercker/redis
 build :
   steps :
