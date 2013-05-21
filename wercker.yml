@@ -1,4 +1,4 @@
-box : wouter/ruby
+box : wercker/nodejs
 sservices :
   - wercker/redis
 build :
