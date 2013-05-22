@@ -3,7 +3,8 @@ sservices :
   - wercker/redis
 build :
   steps :
-    - sleep
+    - sleep:
+        name : sleepzortz
   stepss :
     - nodeenv activate
     - npm install
