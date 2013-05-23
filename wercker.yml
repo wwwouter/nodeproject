@@ -4,7 +4,8 @@ services :
 build :
   steps :
     - hello world
-    - packages: nano vim
+    - packages: 
+        packages : nano vim
   stepss :
     - nodeenv activate
     - npm install
