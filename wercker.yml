@@ -1,4 +1,4 @@
-box : wouter/empty
+box : wercker/blank
 services :
   - wouter/empty
 build :
