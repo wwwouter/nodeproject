@@ -1,6 +1,6 @@
-box : wercker/ubuntu12.04-nodejs0.8
-sservices :
-  - wercker/redis
+box : wouter/empty
+services :
+  - wouter/empty
 build :
   steps :
     - hello world
